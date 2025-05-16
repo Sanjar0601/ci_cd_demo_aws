@@ -1,3 +1,47 @@
-<html>
-  <body><h1>Hello from CI/CD! Sanjar</h1></body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hello from CI/CD</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Roboto', sans-serif;
+      color: #ffffff;
+      overflow: hidden;
+    }
+
+    h1 {
+      font-size: 3rem;
+      background: linear-gradient(to right, #00f260, #0575e6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-family: 'Orbitron', sans-serif;
+      text-shadow: 2px 2px 10px rgba(0, 255, 255, 0.4);
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% {
+        transform: scale(1);
+        text-shadow: 2px 2px 10px rgba(0, 255, 255, 0.4);
+      }
+      50% {
+        transform: scale(1.05);
+        text-shadow: 2px 2px 20px rgba(0, 255, 255, 0.8);
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Hello from CI/CD, Sanjar 🚀</h1>
+</body>
 </html>
