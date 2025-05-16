@@ -10,7 +10,7 @@ phases:
   post_build:
     commands:
       - echo "Deploying to S3..."
-      - aws s3 cp index.html s3://YOUR_BUCKET_NAME/index.html
+      - aws s3 cp index.html s3://azizbekproect/index.html
 
 artifacts:
   files:
